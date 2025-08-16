@@ -1,1 +1,8 @@
 # Youtube-Video-Summarizer
+YouTube Transcript Summarizer is a versatile Python tool designed to automate the process of summarizing YouTube videos using transcripts and advanced AI models. This script streamlines the user experience by integrating YouTube's transcript retrieval API and multiple Large Language Model APIs—including Google Gemini, OpenAI ChatGPT, and local models via Ollama—enabling users to select their preferred AI for analysis.
+Once configuration is complete, users simply provide a YouTube video link. The script automatically extracts the video ID, validates the URL, and retrieves the transcript using the youtube_transcript_api. If the transcript is available, the full text is obtained and presented to the selected AI model—whether cloud-based or local, depending on user choice. The chosen AI then generates a concise, meaningful summary or answers user-specified questions related to the video content.
+
+Robust error handling is built in for common issues, such as missing transcripts, disabled subtitles, or incorrect API keys, keeping the experience user-friendly and informative. With support for multiple AI models and easy configuration, this tool is especially valuable for content creators, educators, researchers, and anyone seeking fast, high-quality video summaries from YouTube.
+
+The code is modular and extensible, allowing developers to add support for more AI models or transcript languages. Whether you want to leverage cloud AI or test local models, the YouTube Transcript Summarizer provides a practical, adaptable solution for making video content more accessible and actionable.
+
